@@ -2,7 +2,7 @@ tinggi_2036 = int(input("Masukkan tinggi pola (bilangan genap, misal 10): "))
 
 if tinggi_2036 % 2 != 0:
     print("Tinggi pola harus bilangan genap!")
-else :
+else:
     a_2036 = tinggi_2036
     c_2036 = a_2036
     lebar_2036 = (2 * tinggi_2036) - 2
@@ -18,7 +18,6 @@ else :
                     print("#", end="")
                 else:
                     print("=", end="")
-
             # Baris isi
             else:
                 if j_2036 == 1 or j_2036 == lebar_2036:
@@ -36,13 +35,12 @@ else :
                         print(".", end="")
                     else:
                         print(" ", end="")
+        print()
 
-                print()
+        # Logika asli Java
+        a_2036 -= 2
 
-                #Logika asli Java
-                a_2036 -= 2
-
-                if a_2036 <= 0:
-                    c_2036 = (-a_2036) + 2
-                else :
-                    c_2036 = a_2036
+        if a_2036 <= 0:
+            c_2036 = (-a_2036) + 2
+        else:
+            c_2036 = a_2036

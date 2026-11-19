@@ -8,4 +8,4 @@ for i in range(1, len(temperatures)):
         lowest = temperatures[i]
 print("Highest:", highest)
 print("Lowest:", lowest)
-
+#
